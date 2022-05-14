@@ -1,0 +1,12 @@
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Outline form field</mat-label>
+    <input matInput (keyup)="onAddPost()" placeholder="Placeholder" [(ngModel)]="enteredValue">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
+</p>
+
+
+<hr>
+<p>{{ newPost }}</p>
