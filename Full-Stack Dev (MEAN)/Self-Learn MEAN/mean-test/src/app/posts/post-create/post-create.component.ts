@@ -8,6 +8,8 @@ export class PostCreateComponent{
   enteredValue = '';
   newPost = '';
 
+
+
   onAddPost(){
     this.newPost = this.enteredValue;
   }
