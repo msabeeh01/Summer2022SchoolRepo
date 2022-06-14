@@ -1,0 +1,40 @@
+/*Assignment 1, Express Portfolio; Muhammad Sabeeh - 301184564 - 2022/06/04*/
+/* custom css here */
+.mission, .aboutme {
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding:10px;
+}
+
+#serviceitem{
+    background-color: gainsboro;
+    padding:30px;
+    margin:0px;
+}
+
+div{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.centercontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col{
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+#colvert {
+    justify-content: center;
+    align-items: center;
+}
+
+#greenback{
+    background-color: gainsboro;
+}
